@@ -1,0 +1,9 @@
+module.exports = {
+  name:"kaçcm",
+  code:`
+  $addTimestamp
+  $color[RANDOM]
+  $title[Malafat Ölçer]
+  $description[$randomText[**Malafat'ýn 31 cm Acaba Cünüpmüsün?**;**Malafat'ýn 2 cm xd Bu Ne Bamya**;**Malafat'ýn 16 cm Ýyiymiþ**;**Seninkini Söylememem Çünkü Olmayan Þey Söylenmez xd**;**Malafat'ýn 20 cm Efsane Tam Agýza Vermelik**]]
+ `
+}

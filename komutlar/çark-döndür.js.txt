@@ -1,0 +1,15 @@
+module.exports = {
+  name:"çark-döndür",
+  code:`
+$color[FFFFFF]
+$title[Çark'ý Çeviriyorum!]
+$description[<@$authorID> Çark Çevirdi Ve $random[200;1000] TL Para Kazandý!]
+$cooldown[10m;%time% Süre Bekleyin!]
+$setUserVar[para;$sum[$getUserVar[para];$random[200;1000]]]
+$image[https://media1.tenor.com/images/1442baf5b66b2edf9634add92d999c58/tenor.gif?itemid=11209519]
+`
+}
+
+
+
+

@@ -1,0 +1,11 @@
+module.exports = {
+  name:"param",
+  code:`
+  $title[Ekonomik Bilgilerine Bakýyorsun]
+  $color[RANDOM]
+  $thumbnail[$userAvatar[$mentioned[1;yes];2048;yes]]
+  $footer[$username Kullandý;$userAvatar[$authorID;2048;yes]]
+  $addTimestamp
+  $addField[Kartta Bulunan;$getUserVar[para;$mentioned[1;yes]];yes]
+  `
+}

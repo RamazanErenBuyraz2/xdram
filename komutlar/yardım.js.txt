@@ -1,0 +1,21 @@
+module.exports = {
+   name: "yardým",
+   code:`
+ $title[Yardým Menüsü] 
+ $thumbnail[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2FFree_Sample_By_Wix.jpg?v=1613593420939]
+ $description[
+<a:golduye:770656551249379328> **?moderasyon :** **Yetkili Komutlarý.**
+<a:golduye:770656551249379328> **?level-sistemi :** **Level Sistemi.**
+
+<a:golduye:770656551249379328> **?eðlence :** **Eðlence Komutlarý.**
+<a:golduye:770656551249379328> **?ekonomi :** **Ekonomi Komutlarý.**
+<a:golduye:770656551249379328> **?müzik :** **Müzik Komutlarý.**
+
+<a:golduye:770656551249379328> **?destek-sistemi :** **Destek Sistemimiz.BAKIMDA**
+<a:golduye:770656551249379328> **?bot :** **Botun Hakkýnda Komutlarý.**
+<a:golduye:770656551249379328> **?öneri :** **Bota Öneri Verme.**
+]
+$footer[Botumuzu Begendiyseniz Sunucunuza Eklemeyi Unutmayýn!]
+ $image[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2Fstandard.gif?v=1613587740477]
+ 
+`}

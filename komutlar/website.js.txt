@@ -1,0 +1,9 @@
+module.exports = ({
+    name: "website",
+    code: `
+ $title[RektLight Bot Website]
+ $description[
+ http://web.rektlightbot.tk/
+ ]
+    `
+    });

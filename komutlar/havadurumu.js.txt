@@ -1,0 +1,10 @@
+module.exports = {
+  name:"havadurumu",
+  code:`
+$title[$message[1] Hava Durumu]
+$image[https://wttr.in/$message[1].png?]
+$footer[$username]
+$addTimestamp
+$argsCheck[>1;Lütfen þehir adýný giriniz!]
+ `
+}

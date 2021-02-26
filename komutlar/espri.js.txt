@@ -1,0 +1,6 @@
+module.exports = {
+  name: "espri",
+  code: `
+  $title[Espri]
+  $description[$randomText[**En Güzel Yemek Yapan Ceren hangisidir? Tenceren xd**;**Tuvaletteki 10’a Ne Denir? Sifon :D**;**Yýkanan Ton Balýðýna Ne Denir? Washington**;**Yemeðin Suyuna Kim Bandý? Koli Bandý**;**Bebeðe Patik Giydirmeye Çalýþmýþlar Ama Giymemiþ Neden? Bebek Antipatik'miþ**;**Örümcek Adam Að Atamýyormuþ Neden? Çünkü Ag Baglantýsý Kopmuþ xd**;**Siviller Hangi Dili Konuþur? Sivilce**;**Hiç Bozuk Paran Var mý? Yok Çünkü Hepsini Tamir Ettim**]]
+  $footer[Botumuzu Begendiyseniz Sunucunuza Eklemeyi Unutmayýn!]`}

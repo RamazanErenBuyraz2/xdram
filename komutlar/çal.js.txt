@@ -1,0 +1,15 @@
+
+module.exports = {
+    name: "çal",
+    code: `$color[00ff51]
+$author[Müzik Çalýnýyor;https://e7.pngegg.com/pngimages/784/381/png-clipart-white-and-red-musical-note-logo-text-symbol-brand-music-text-trademark.png]
+$description[Þuanda Oynatýlan Müzik **$songInfo[title]**
+Müzik Uzunluðu **$songInfo[duration]** Saniyedir.
+
+Müzik Linki $songInfo[url]
+Sýradaki Müzik Sayýsý: $queueLength]
+$footer[Müziði Çalan Kiþi $username;$authorAvatar]
+$playSong[$message;Böyle bir müzik bulamadým tekrar denermisin]
+$onlyIf[$voiceID!=;Ses Kanalýna Girmelisin]
+$onlyIf[$message!=;Bir Müzik Ýsmi Girmelisin]`
+}

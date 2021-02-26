@@ -1,0 +1,10 @@
+module.exports = {
+  name:"gold-ekle",
+  code:`
+<a:golduye:770656551249379328> $username[$message] **Artýk Gold Üye Oldu!** <a:golduye:770656551249379328>
+$suppressErrors[Kullanýcý IDsi girmelisin.]
+$onlyForIDs[721726880792707185;Sadece Geliþtiricim kullanabilir!]
+$setVar[gold;yes;$message]
+$useChannel[812690299733803008]
+`
+}

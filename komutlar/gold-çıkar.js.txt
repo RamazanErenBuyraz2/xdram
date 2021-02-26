@@ -1,0 +1,13 @@
+module.exports = {
+  name:"gold-çýkar",
+  code:`
+<a:golduye:770656551249379328> $username[$message] **Artýk Gold Üye Degil!** <a:golduye:770656551249379328>
+$suppressErrors[Kullanýcý ID'si girmelisin.]
+$onlyForIDs[721726880792707185;Sadece Geliþtiricim kullanabilirl]
+$setVar[gold;no;$message]
+$useChannel[812690299733803008]
+`
+}
+
+
+

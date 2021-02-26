@@ -1,0 +1,13 @@
+module.exports = {
+  name:"para-gönder",
+  code:`
+  $color[RANDOM]
+  $description[<@!$authorID> , <@!$mentioned[1]> Adlý Kullanýcýya $noMentionMessage Para Gönderdi]
+  $setUserVar[para;$sum[$getUserVar[para;$mentioned[1]];$noMentionMessage];$mentioned[1]]
+  $setUserVar[para;$sub[$getUserVar[para];$noMentionMessage]]
+  $onlyIf[$noMentionMessage!=;:x: Gönderilecek Para Miktarýný Yazmalýsýn]
+  $onlyIf[$noMentionMessage>0;Lütfen Sýfýrdan Büyük Bir Sayý Yaz]
+  $onlyIf[$mentioned[1]!=;:x: Para Gönderilecek Kiþiyi Etiketlemelisin]
+  $onlyIf[$getUserVar[para]>$noMentionMessage;:x: \`$noMentionMessage\` Para Gönderemedin Çünkü Senin Paran \`$getUserVar[para]\` TL]
+`
+}

@@ -1,0 +1,12 @@
+module.exports = {
+    name:"otorol-kapat",
+    code:`
+    $resetServerVar[otorollog]
+    $resetServerVar[otorolrol]
+    $resetServerVar[otorol]
+    $title[Baþarýlý]
+    $description[Bu özelliði baþarýyla kapattýn!]
+    $onlyIf[$hasPerms[$authorID;admin];Hey dostum yetkin yok?]
+    $onlyIf[$getServerVar[otorol]!=kapalý;Bu özellik zaten kapalýymýþ?]
+    $onlyPerms[admin;Hey dostum yetkin yok?]
+`}

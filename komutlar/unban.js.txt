@@ -1,0 +1,8 @@
+module.exports = {
+    name: "unban",
+    code: `
+$unban
+$message[1]'in Yasagý Kaldýrýlmýþtýr!
+$onlyPerms[admin;Bu Komutu Kullanamazsýn!]
+$argsCheck[>1;Lütfen Yasagý Kaldýrýlacak Kiþiyi Etiketleyin!]
+`}

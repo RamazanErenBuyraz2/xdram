@@ -1,0 +1,9 @@
+module.exports = ({
+    name: "davet",
+    code: `
+ $title[RektLight Bot Davet]
+ $description[
+ https://discord.com/api/oauth2/authorize?client_id=787726231038459915&permissions=8&scope=bot
+ ]
+    `
+    });

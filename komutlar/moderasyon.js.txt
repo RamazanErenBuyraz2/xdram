@@ -1,0 +1,20 @@
+module.exports = {
+   name: "moderasyon",
+   code:`
+ $title[Moderasyon Menüsü] 
+ $thumbnail[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2FFree_Sample_By_Wix.jpg?v=1613593420939]
+ $description[
+<a:golduye:770656551249379328> **?ban :** **Sunucudan Yasaklama.**
+<a:golduye:770656551249379328> **?unban :** **Yasak Kaldýrma.**
+
+<a:golduye:770656551249379328> **?kick :** **Sunucudan Atma.**
+<a:golduye:770656551249379328> **?sil :** **Sohbet Silme.**
+<a:golduye:770656551249379328> **?sayaç-sistemi :** **Sayaç Sistemi.**
+
+<a:golduye:770656551249379328> **?otorol-sistemi :** **Otorol Sistemi.**
+<a:golduye:770656551249379328> **?hgbb-sistemi :** **Hg-Bb Sistemi.**
+<a:golduye:770656551249379328> **?saas-mesaj-sistemi :** **Özel Mesaj Sistemi.**]
+$footer[Botumuzu Begendiyseniz Sunucunuza Eklemeyi Unutmayýn!]
+ $image[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2Fstandard.gif?v=1613587740477]
+ 
+`}

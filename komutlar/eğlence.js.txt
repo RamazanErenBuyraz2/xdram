@@ -1,0 +1,20 @@
+module.exports = {
+   name: "eðlence",
+   code:`
+ $title[Eðlence Menüsü] 
+ $thumbnail[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2FFree_Sample_By_Wix.jpg?v=1613593420939]
+ $description[
+<a:golduye:770656551249379328> **?espri :** **Espri Yapar.**
+<a:golduye:770656551249379328> **?ara155 :** **Polisi Arar.**
+
+<a:golduye:770656551249379328> **?avatar :** **Avatarýný Gösterir.**
+<a:golduye:770656551249379328> **?kaçcm :** **Malafatýný Ölçer.**
+
+<a:golduye:770656551249379328> **?aþk-ölçer :** **Aþk Ölçer.**
+<a:golduye:770656551249379328> **?havadurumu:** **Havadurumunu Gösterir.**
+<a:golduye:770656551249379328> **?maske-tak:** **Maske Takarsýnýz.**
+]
+$footer[Botumuzu Begendiyseniz Sunucunuza Eklemeyi Unutmayýn!]
+ $image[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2Fstandard.gif?v=1613587740477]
+ 
+`}

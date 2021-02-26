@@ -1,0 +1,9 @@
+
+module.exports = {
+  name:"çalýþ",
+  code:`
+$setUserVar[para;$sum[$getUserVar[para];$random[300;800]]]
+$random[300;800] **TL Kazandýnýz!**
+$cooldown[25m;Çok Yoruldun Biraz Dinlen! %time%]
+`
+}

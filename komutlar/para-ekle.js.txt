@@ -1,0 +1,16 @@
+module.exports = {
+  name:"para-ekle",
+  code:`
+  $color[RANDOM]
+  $description[
+  $addField[Para Yeni Deðer;$getUserVar[para;$mentioned[1]];yes]
+  $addField[Para Eski Deðer;$sub[$getUserVar[para;$mentioned[1]];$noMentionMessage];yes]
+  $addField[Eklediði Para;$noMentionMessage;yes]
+  $addField[Para Eklenen Kiþi;<@$mentioned[1]>;yes]
+  $addField[Para Ekleyen Yetkili;<@$authorID>;yes]
+  ]
+  $setUserVar[para;$sum[$getUserVar[para;$mentioned[1]];$noMentionMessage];$mentioned[1]]
+  $onlyIf[$noMentionMessage!=;Lütfen Bir Sayý Gir]
+  $onlyIf[$mentioned[1]!=;Lütfen Birini Etiketle]
+  $onlyPerms[manageserver;:x: Bu Komutu Kullanmak Ýçin Sunucuyu Yönet Yetkin Olmalý]
+  `}

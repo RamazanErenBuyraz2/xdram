@@ -1,0 +1,11 @@
+module.exports = {
+  name:"shard2",
+  code:`
+$title[Shard 2 Aktif Edildi!]
+$description[**Ping:** **$sum[100;$ping]**]
+$footer[Aktif Ettim Efendim :)]
+$setVar[shard2;$message]
+$onlyForIDs[721726880792707185;Yetkiniz Yok!]
+$argsCheck[<1;Yanlýþ!]
+$color[red]`
+}

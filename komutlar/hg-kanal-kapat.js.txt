@@ -1,0 +1,9 @@
+module.exports = {
+  name:"hgkanal-kapat",
+  code:`
+  $addTimestamp
+  $color[RANDOM]
+  $description[<@$authorID> , Hoþgeldin Kanalý Silindi]
+  $setServerVar[hgkanal;0]
+  $onlyPerms[admin;Bu Komutu Kullanamazsýn]`
+}

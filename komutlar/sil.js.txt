@@ -1,0 +1,10 @@
+module.exports = {
+  name:"sil",
+  aliases:['temizle'],
+  code:`
+<@$authorID> , $message[1] Kadar Mesajý Sildim
+$suppressErrors[Mesajlarý Silemedim!]
+$clear[$message[1]]
+$onlyPerms[managemessages;\`Mesajlarý Yönet\` Ýznin Yok]
+$argsCheck[>1;Kullaným: ?sil <sayý>]`
+}

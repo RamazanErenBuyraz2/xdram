@@ -1,0 +1,9 @@
+module.exports = ({
+    name: "destek-sunucusu",
+    code: `
+ $title[RektLight Bot Destek Sunucusu]
+ $description[
+ https://discord.gg/E9JmEhtQ7k
+ ]
+    `
+    });

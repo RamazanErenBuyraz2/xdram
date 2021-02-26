@@ -1,0 +1,11 @@
+module.exports = {
+  name:"maske-tak",
+  code:`
+  $title[Lütfen Maskeni Tak!]
+$color[$random[0;999999]]
+$description[**<@$authorID> Maskesini Taktý Sosyal Mesafeye Dikkat Ediyor.**]
+$image[https://media0.giphy.com/media/h5v9ygIpjpSp9Jdd1c/giphy.gif?cid=4d1e4f29d70d9e21c854a8f78588a465fb48e0d973f45bf9&rid=giphy.gif]
+$footer[$username | Maskesini Taktý!]
+$addTimestamp
+ `
+}

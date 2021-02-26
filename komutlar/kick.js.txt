@@ -1,0 +1,12 @@
+module.exports = ({
+    name: "kick",
+    code: `
+$kick
+$title[Sunucudan Atma Ýþlemi]
+$onlyPerms[admin;Bu Komutu Kullanamazsýn!]
+$description[
+<@$authorID> **Adlý** **Yetkili** $message[1] **Adlý Kullanýcýyý Sunucudan Attý**.]
+$argsCheck[>1;Lütfen Sunucudan Atýlacak Kullanýcýyý Etiketleyin.]
+$image[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2Fgiphy.gif?v=1613602199830]
+    `
+    });

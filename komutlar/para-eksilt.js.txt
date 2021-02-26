@@ -1,0 +1,17 @@
+module.exports = {
+  name:"para-eksilt",
+  code:`
+  $color[RANDOM]
+  $description[
+  $addField[Para Yeni Deðer;$getUserVar[para;$mentioned[1]];yes]
+  $addField[Para Eski Deðer;$sum[$getUserVar[para;$mentioned[1]];$noMentionMessage];yes]
+  $addField[Çýkarttýðý Para;$noMentionMessage;yes]
+  $addField[Parasý Silinen Kiþi;<@$mentioned[1]>;yes]
+  $addField[Para Silen Yetkili;<@$authorID>;yes]
+  ]
+  $setUserVar[para;$sub[$getUserVar[para;$mentioned[1]];$noMentionMessage];$mentioned[1]]
+  $onlyIf[$getUserVar[para;$mentioned[1]]>=$noMentionMessage;Kiþinin Parasýný Eksi(-)ye Düþemez]
+  $onlyIf[$noMentionMessage!=;Lütfen Bir Sayý Gir]
+  $onlyIf[$mentioned[1]!=;Lütfen Birini Etiketle]
+  $onlyPerms[manageserver;:x: Bu Komutu Kullanmak Ýçin \`Sunucuyu Yönet\` Yetkin Olmalý]`
+}

@@ -1,0 +1,13 @@
+module.exports = {
+  name:"sayaç-ayarla",
+  aliases:['sayac-ayarla','sayaç-ayarla','sayaç'],
+  code:`
+  $addTimestamp
+  $color[RANDOM]
+  $description[<@$authorID> , Sayaç Hedefi \`$noMentionMessage[1]\`, Sayaç Kanalý <#$mentionedChannels[1]> Olarak Ayarlandý]
+  $setServerVar[sayachedef;$noMentionMessage[1]]
+  $setServerVar[sayackanal;$mentionedChannels[1]]
+  $onlyIf[$noMentionMessage[1]!=;Bir Sayý Gir]
+  $onlyIf[$mentionedChannels[1]!=;Bir \`#kanal\` Etiketle]
+  $onlyPerms[admin;Bu Komutu Kullanamazsýn]`
+}

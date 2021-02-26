@@ -1,0 +1,20 @@
+module.exports = {
+  name:"k",
+  code:`
+$color[ff00ff]
+$title[RektLight Bot Ýstatistikleri]
+$description[
+<a:golduye:770656551249379328> **Ping:** **$ping ms**
+<a:golduye:770656551249379328> **Kütüphane:** **DBD.js** 
+<a:golduye:770656551249379328> **Botun Yapým Tarihi:** **1 Þubat Pazartesi 2021**
+
+<a:golduye:770656551249379328> **Bot Sürümü:**     **$packageVersion**
+<a:golduye:770656551249379328> **Kullanýcý:** **$allMembersCount**
+<a:golduye:770656551249379328> **Sunucular:** **$serverCount**
+
+<a:golduye:770656551249379328> **Komut Sayýsý:** **$commandsCount**
+<a:golduye:770656551249379328> **Çalýþma Süresi:** **$uptime**
+<a:golduye:770656551249379328> **Bot Sahibi:** <@721726880792707185>
+$image[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2Fstandard.gif?v=1613587740477]]
+$thumbnail[https://cdn.glitch.com/cf21a1c7-0db0-479e-a81f-94d3f70367e8%2FFree_Sample_By_Wix.jpg?v=1613593420939]`
+}

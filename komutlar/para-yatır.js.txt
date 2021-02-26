@@ -1,0 +1,10 @@
+module.exports = {
+  name:"para-yatýr",
+  code:`
+  $color[RANDOM]
+  $description[Bankaya $noMentionMessage Yatýrdýn]
+  $setUserVar[banka;$sum[$getUserVar[banka];$noMentionMessage]]
+  $setUserVar[para;$sub[$getUserVar[para];$noMentionMessage]]
+  $onlyIf[$noMentionMessage>0;Lütfen Sýfýrdan Büyük Bir Sayý Yaz]
+  $onlyIf[$getUserVar[para]>=$noMentionMessage;Bu Kadar Paraya Sahip Deðilsin]`
+}

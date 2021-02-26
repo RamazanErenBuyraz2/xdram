@@ -1,0 +1,25 @@
+
+
+module.exports = {
+  name:"dilen",
+  code:`
+$color[#7CFC00]
+$title[Dilendin]
+$description[Dilendin Ve $random[100;300] TL Kazandýn]
+$setUserVar[para;$sum[$getUserVar[para];$random[100;300]]]
+$cooldown[10m;Tekrar Dilenmene Kalan Süre %time% ]
+$footer[$username Dilendi]
+$addTimestamp
+`
+}
+
+
+
+
+
+
+
+
+
+
+

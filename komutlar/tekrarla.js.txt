@@ -1,0 +1,11 @@
+module.exports = ({
+    name: "tekrarla",
+    code: `
+    $color[00ff51]
+$author[$replaceText[$replaceText[$loopQueue;true;Þarký Tekrarlanýyor;-1];false;Þarký Tekrarlanmýyor;-1];https://cdn.discordapp.com/attachments/778283166418468887/781482437590253598/tekrarla-removebg-preview.png]
+
+$onlyIf[$voiceID!=;Ses Kanalýna Girmelisin]
+
+$suppressErrors[Müzik Çalmýyor Nasýl Tekrara Alayým?]
+    `
+    });

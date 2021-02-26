@@ -1,0 +1,11 @@
+module.exports = {
+  name:"günlük-ödül",
+  code:`
+  $footer[$username[$clientID] Gönlü Bol Kiþi;$userAvatar[$clientID;2048;yes]]
+  $title[Günlük Para]
+  $description[<@!$authorID>, Günlük Harçýlýðýný Aldý , $random[100;500] ?]
+  $color[RANDOM]
+  $setUserVar[para;$sum[$getUserVar[para];$random[100;500]]]
+  $cooldown[24h;Bunu 24 Saatte Bir Kullanabilirsin]
+`
+}

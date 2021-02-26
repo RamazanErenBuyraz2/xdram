@@ -1,0 +1,11 @@
+module.exports = {
+  name:"sayac-kapat",
+  aliases:['sayaç-kapat','sayaçkapat','sayackapat'],
+  code:`
+  $addTimestamp
+  $color[RANDOM]
+  $description[<@$authorID> , Sayaç Kapatýldý]
+  $setServerVar[sayachedef;0]
+  $setServerVar[sayackanal;0]
+  $onlyPerms[admin;Bu Komutu Kullanamazsýn]`
+}

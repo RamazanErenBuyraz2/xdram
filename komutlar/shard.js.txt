@@ -1,0 +1,6 @@
+module.exports = {
+  name:"Shard",
+  code:`
+**Shard 1:** $getVar[shard1] **Ping:** **$ping**
+**Shard 2:** $getVar[shard2] **Ping:** **$ping**`
+}

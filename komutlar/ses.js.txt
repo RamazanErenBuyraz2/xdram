@@ -1,0 +1,12 @@
+module.exports = ({
+    name: "ses",
+    code: `
+    $color[00ff51]
+$author[Ses $message Olarak Ayarlandý;https://cdn.discordapp.com/attachments/778283166418468887/781473098750885888/ses-removebg-preview.png]
+$volume[$message]
+$onlyIf[$isNumber[$message]!=false;Girdiðin Bir Rakam Deðil]
+$onlyIf[$voiceID!=;Ses Kanalýna Girmelisin]
+$onlyIf[$message!=;Bir Müzik Ýsmi Girmelisin]
+$suppressErrors[Müzik Çalmýyor Nasýl Ses Vereyim?]
+    `
+    });
